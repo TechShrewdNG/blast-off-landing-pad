@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Mail } from "lucide-react";
+import { Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,56 +10,56 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
               <Mail className="h-6 w-6 text-mailblast-primary" />
-              <span className="font-display font-bold text-xl text-white">MailBlast</span>
+              <span className="font-display font-bold text-xl text-white">Mail Blast</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Powerful email marketing software built for growth.
+              Done-for-You Email Marketing that converts and drives growth.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <span className="sr-only">Twitter</span>
-                <div className="h-6 w-6 bg-gray-700 rounded-full"></div>
+                <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <span className="sr-only">Facebook</span>
-                <div className="h-6 w-6 bg-gray-700 rounded-full"></div>
+                <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <span className="sr-only">LinkedIn</span>
-                <div className="h-6 w-6 bg-gray-700 rounded-full"></div>
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
           <div>
-            <h3 className="font-semibold text-white mb-4">Product</h3>
+            <h3 className="font-semibold text-white mb-4">Services</h3>
             <ul className="space-y-3">
-              <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
-              <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">API</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-semibold text-white mb-4">Resources</h3>
-            <ul className="space-y-3">
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Community</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Status</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Email Campaign Management</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Automation & Drip Campaigns</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">List Segmentation</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Performance Tracking</a></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-3">
               <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+              <li><a href="#clients" className="hover:text-white transition-colors">Who We Help</a></li>
+              <li><a href="#why-choose-us" className="hover:text-white transition-colors">Why Choose Us</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Legal</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-white mb-4">Contact</h3>
+            <ul className="space-y-3">
+              <li>Email: hello@mailblast.com</li>
+              <li>Phone: (555) 123-4567</li>
+              <li>123 Email St, Marketing City</li>
+              <li>Mon-Fri: 9AM-5PM EST</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400">© 2025 MailBlast. All rights reserved.</p>
+          <p className="text-sm text-gray-400">© 2025 Mail Blast. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</a>

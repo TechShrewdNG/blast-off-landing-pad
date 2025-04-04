@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -11,22 +11,24 @@ const CTA = () => {
           <Mail className="h-16 w-16" />
         </div>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-          Ready to Transform Your Email Marketing?
+          💥 Let's Boost Your Email Marketing!
         </h2>
         <p className="text-xl mb-12 max-w-2xl mx-auto opacity-90">
-          Join thousands of businesses that use MailBlast to grow their audience and boost conversions.
+          Want to see how Mail Blast can grow your business?
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-white text-mailblast-primary hover:bg-gray-100">
-            Start Your Free Trial
+            Get a Free Consultation
+            <Mail className="ml-2 h-5 w-5" />
           </Button>
           <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/20">
-            Schedule a Demo
+            Contact Us
+            <Phone className="ml-2 h-5 w-5" />
           </Button>
         </div>
-        <p className="mt-6 text-sm opacity-80">
-          No credit card required • 14-day free trial • Cancel anytime
-        </p>
+        <div className="mt-8 inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
+          <span className="text-sm font-medium">🎁 Your First 100 Emails Are On Us!</span>
+        </div>
       </div>
     </section>
   );

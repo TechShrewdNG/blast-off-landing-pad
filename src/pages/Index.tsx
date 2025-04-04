@@ -2,10 +2,10 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
+import WhatWeDo from "@/components/WhatWeDo";
+import HowWeWork from "@/components/HowWeWork";
+import WhoWeHelp from "@/components/WhoWeHelp";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -13,12 +13,12 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow pt-16">
         <Hero />
-        <Features />
-        <Pricing />
-        <Testimonials />
-        <FAQ />
+        <WhatWeDo />
+        <HowWeWork />
+        <WhoWeHelp />
+        <WhyChooseUs />
         <CTA />
       </main>
       <Footer />
