@@ -5,22 +5,22 @@ import { CheckCircle, Clock, Fingerprint, DollarSign } from "lucide-react";
 
 const reasons = [
   {
-    icon: <CheckCircle className="h-10 w-10 text-mailblast-primary" />,
+    icon: <CheckCircle className="h-10 w-10 text-mailblast-secondary" />,
     title: "Expert Team",
     description: "Our specialists have years of experience in email marketing and conversions."
   },
   {
-    icon: <Clock className="h-10 w-10 text-mailblast-primary" />,
+    icon: <Clock className="h-10 w-10 text-mailblast-secondary" />,
     title: "Time-Saving",
     description: "We handle everything so you can focus on growing your core business."
   },
   {
-    icon: <Fingerprint className="h-10 w-10 text-mailblast-primary" />,
+    icon: <Fingerprint className="h-10 w-10 text-mailblast-secondary" />,
     title: "Custom-Tailored Approach",
     description: "Every strategy is personalized to your unique business needs."
   },
   {
-    icon: <DollarSign className="h-10 w-10 text-mailblast-primary" />,
+    icon: <DollarSign className="h-10 w-10 text-mailblast-secondary" />,
     title: "Affordable & Scalable",
     description: "Solutions that grow with your business without breaking the bank."
   }
@@ -28,24 +28,24 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section id="why-choose-us" className="py-20 px-6 bg-gray-50">
+    <section id="why-choose-us" className="py-20 px-6 bg-mailblast-light">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-mailblast-secondary">
             🌟 Why Choose <span className="gradient-text">Mail Blast</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-mailblast-secondary/80 max-w-2xl mx-auto">
             What makes our service stand out from the competition
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {reasons.map((reason, index) => (
-            <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow text-center">
+            <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow text-center hover:border-mailblast-primary/30">
               <CardContent className="pt-8">
                 <div className="mb-4 flex justify-center">
                   {reason.icon}
                 </div>
-                <h3 className="text-xl font-medium mb-2">{reason.title}</h3>
+                <h3 className="text-xl font-medium mb-2 text-mailblast-secondary">{reason.title}</h3>
                 <p className="text-gray-600">{reason.description}</p>
               </CardContent>
             </Card>

@@ -5,27 +5,27 @@ import { Mail, Zap, Users, BarChart, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    icon: <Mail className="h-10 w-10 text-mailblast-primary p-2 bg-blue-50 rounded-lg" />,
+    icon: <Mail className="h-10 w-10 text-mailblast-secondary p-2 bg-mailblast-light rounded-lg" />,
     title: "Email Campaign Management",
     description: "We craft, design, and send emails that convert."
   },
   {
-    icon: <Zap className="h-10 w-10 text-mailblast-primary p-2 bg-blue-50 rounded-lg" />,
+    icon: <Zap className="h-10 w-10 text-mailblast-secondary p-2 bg-mailblast-light rounded-lg" />,
     title: "Automation & Drip Campaigns",
     description: "Set up sequences that nurture leads and increase sales."
   },
   {
-    icon: <Users className="h-10 w-10 text-mailblast-primary p-2 bg-blue-50 rounded-lg" />,
+    icon: <Users className="h-10 w-10 text-mailblast-secondary p-2 bg-mailblast-light rounded-lg" />,
     title: "List Segmentation & Personalization",
     description: "Target the right people with the right message."
   },
   {
-    icon: <BarChart className="h-10 w-10 text-mailblast-primary p-2 bg-blue-50 rounded-lg" />,
+    icon: <BarChart className="h-10 w-10 text-mailblast-secondary p-2 bg-mailblast-light rounded-lg" />,
     title: "Performance Tracking & Optimization",
     description: "We analyze your results and refine for better ROI."
   },
   {
-    icon: <ShieldCheck className="h-10 w-10 text-mailblast-primary p-2 bg-blue-50 rounded-lg" />,
+    icon: <ShieldCheck className="h-10 w-10 text-mailblast-secondary p-2 bg-mailblast-light rounded-lg" />,
     title: "High Deliverability",
     description: "We ensure your emails land in inboxes, not spam."
   }
@@ -45,10 +45,10 @@ const WhatWeDo = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+            <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md transition-shadow hover:border-mailblast-primary/30">
               <CardHeader>
                 <div className="mb-2">{service.icon}</div>
-                <CardTitle className="text-xl">{service.title}</CardTitle>
+                <CardTitle className="text-xl text-mailblast-secondary">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">{service.description}</p>

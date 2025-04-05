@@ -64,10 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				mailblast: {
-					primary: '#4361EE',
-					secondary: '#3A0CA3',
-					accent: '#7209B7',
-					light: '#F8F9FF',
+					primary: '#FFE11C', // Main yellow from logo
+					secondary: '#035237', // Dark green from logo
+					accent: '#027148', // Lighter green for accents
+					light: '#FFFBE5', // Light yellow background color
 				}
 			},
 			borderRadius: {

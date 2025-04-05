@@ -23,13 +23,13 @@ const steps = [
 
 const HowWeWork = () => {
   return (
-    <section id="process" className="py-20 px-6 bg-gray-50">
+    <section id="process" className="py-20 px-6 bg-mailblast-light">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-mailblast-secondary">
             🔄 How <span className="gradient-text">We Work</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-mailblast-secondary/80 max-w-2xl mx-auto">
             Our streamlined process ensures you get exceptional results with minimal effort
           </p>
         </div>
@@ -37,18 +37,18 @@ const HowWeWork = () => {
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <Card className="border-none shadow-lg h-full">
-                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-br from-mailblast-primary to-mailblast-accent rounded-full w-16 h-16 flex items-center justify-center">
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-br from-mailblast-primary to-mailblast-secondary rounded-full w-16 h-16 flex items-center justify-center">
                   {step.icon}
                 </div>
                 <CardHeader className="pt-16 flex items-center">
-                  <CardTitle className="text-xl">{step.title}</CardTitle>
+                  <CardTitle className="text-xl text-mailblast-secondary">{step.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-gray-600">{step.description}</p>
                 </CardContent>
               </Card>
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 w-8 h-2 bg-gray-200 z-10"></div>
+                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 w-8 h-2 bg-mailblast-primary/30 z-10"></div>
               )}
             </div>
           ))}
