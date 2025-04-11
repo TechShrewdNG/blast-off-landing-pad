@@ -33,13 +33,14 @@ const Navbar = () => {
           <a href="#why-choose-us" className="text-sm font-medium text-mailblast-secondary hover:text-mailblast-accent transition-colors">
             Why Choose Us
           </a>
+          <a href="#pricing" className="text-sm font-medium text-mailblast-secondary hover:text-mailblast-accent transition-colors">
+            Pricing
+          </a>
         </div>
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="ghost" className="text-sm text-mailblast-secondary">
-            Contact
-          </Button>
+
           <Button className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary">
-            Get Started
+          📞 Get Started
           </Button>
         </div>
         <div className="md:hidden">
@@ -81,13 +82,20 @@ const Navbar = () => {
             >
               Why Choose Us
             </a>
+            <a 
+              href="#pricing" 
+              className="py-2 px-4 text-sm font-medium text-mailblast-secondary hover:bg-mailblast-light"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Pricing
+            </a>
             <div className="mt-4 flex flex-col gap-2">
-              <Button variant="ghost" className="justify-center text-mailblast-secondary">
-                Contact
-              </Button>
+
+              <a href="tel:+2348165907113">
               <Button className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary justify-center">
-                Get Started
+              📞 Get Started
               </Button>
+              </a>
             </div>
           </div>
         </div>

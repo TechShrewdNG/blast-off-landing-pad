@@ -19,16 +19,13 @@ const Footer = () => {
               Done-for-You Email Marketing that converts and drives growth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-mailblast-primary transition-colors">
+              <a href="https://www.facebook.com/themailblast" className="text-gray-400 hover:text-mailblast-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-mailblast-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-mailblast-primary transition-colors">
+              <a href="https://www.instagram.com/mailblast" className="text-gray-400 hover:text-mailblast-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-mailblast-primary transition-colors">
+              <a href="https://www.linkedin.com/company/mail-blast/" className="text-gray-400 hover:text-mailblast-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -54,9 +51,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-3">
-              <li>Email: hello@mailblast.com</li>
-              <li>Phone: (555) 123-4567</li>
-              <li>123 Email St, Marketing City</li>
+              <li>Email: info@mail-blast.com</li>
+              <li>Phone: (+234) 816-590-7113</li>
+              <li>Flat 1, Block 2, GoodNews Estate, Lekki - Epe Expressway, Lagos.</li>
               <li>Mon-Fri: 9AM-5PM EST</li>
             </ul>
           </div>

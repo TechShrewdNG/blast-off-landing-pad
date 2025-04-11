@@ -14,22 +14,21 @@ const Hero = () => {
               <span>Done-for-You Email Marketing</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              <span className="gradient-text">💥 Mail Blast</span> – Done-for-You Email Marketing
+              <span className="gradient-text">Your Message, Their Inbox—No Algorithms!</span>
             </h1>
             <p className="text-xl mb-6 text-mailblast-secondary max-w-lg">
-              💡 We Handle Your Email Marketing, So You Focus on Growing Your Business
+            We Handle Your Email Marketing, So You Focus on Growing Your Business
             </p>
             <p className="text-lg mb-8 text-mailblast-secondary max-w-lg">
-              📩 Engage your audience, boost sales, and nurture customer relationships with expertly crafted email campaigns – without lifting a finger!
+            Engage your audience, boost sales, and nurture customer relationships with expertly crafted email campaigns – without lifting a finger!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
+            <a href="tel:+2348165907113">
               <Button size="lg" className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary">
-                Get Free Consultation
+              📞 Get Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-mailblast-secondary border-mailblast-secondary hover:bg-mailblast-light">
-                Learn More
-              </Button>
+              </a>
             </div>
             <div className="mt-8 flex items-center text-sm text-mailblast-secondary">
               <span>Your First 100 Emails Are On Us!</span>
