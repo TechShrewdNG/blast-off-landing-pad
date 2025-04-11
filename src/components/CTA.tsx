@@ -17,14 +17,11 @@ const CTA = () => {
           Want to see how Mail Blast can grow your business?
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+2348165907113">
           <Button size="lg" className="bg-white text-mailblast-secondary hover:bg-gray-100">
-            Get a Free Consultation
-            <Mail className="ml-2 h-5 w-5" />
+          📞 Get a Free Consultation
           </Button>
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/20">
-            Contact Us
-            <Phone className="ml-2 h-5 w-5" />
-          </Button>
+          </a>
         </div>
         <div className="mt-8 inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
           <span className="text-sm font-medium text-white">🎁 Your First 100 Emails Are On Us!</span>

@@ -7,11 +7,11 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Starter",
-    price: "$19",
+    price: "₦200,000",
     description: "Perfect for small businesses just getting started with email marketing.",
     features: [
       "Up to 5,000 emails/month",
-      "1,000 subscriber limit",
+      "2,000 subscriber limit",
       "Basic templates",
       "Email support",
       "Basic analytics",
@@ -21,11 +21,11 @@ const plans = [
   },
   {
     name: "Professional",
-    price: "$49",
+    price: "₦500,000",
     description: "Ideal for growing businesses that need more advanced features.",
     features: [
-      "Up to 25,000 emails/month",
-      "10,000 subscriber limit",
+      "Unlimited emails/month",
+      "20,000 subscriber limit",
       "Premium templates",
       "Priority email support",
       "Advanced analytics",
@@ -36,9 +36,9 @@ const plans = [
     ctaText: "Start Free Trial"
   },
   {
-    name: "Enterprise",
-    price: "$99",
-    description: "For established businesses with large subscriber bases and complex needs.",
+    name: "Software For Business",
+    price: "₦3,500,000",
+    description: "For established businesses with large subscriber bases and need an in-house email marketing software.",
     features: [
       "Unlimited emails/month",
       "Unlimited subscribers",
