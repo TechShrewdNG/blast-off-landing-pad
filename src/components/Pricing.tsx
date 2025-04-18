@@ -7,21 +7,22 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Starter",
-    price: "₦200,000",
+    price: "₦200,000 /mo",
     description: "Perfect for small businesses just getting started with email marketing.",
     features: [
-      "Up to 5,000 emails/month",
-      "2,000 subscriber limit",
+      "Unlimited emails/month",
+      "1,500 subscriber limit",
       "Basic templates",
       "Email support",
       "Basic analytics",
     ],
     isPopular: false,
-    ctaText: "Start Free Trial"
+    ctaText: "Start Free Trial",
+    ctaLink: "https://hub.mail-blast.com/login"
   },
   {
     name: "Professional",
-    price: "₦500,000",
+    price: "₦500,000 /mo",
     description: "Ideal for growing businesses that need more advanced features.",
     features: [
       "Unlimited emails/month",
@@ -33,7 +34,8 @@ const plans = [
       "Automation workflows",
     ],
     isPopular: true,
-    ctaText: "Start Free Trial"
+    ctaText: "Start Free Trial",
+    ctaLink: "https://hub.mail-blast.com/login"
   },
   {
     name: "Software For Business",
@@ -50,7 +52,8 @@ const plans = [
       "White-labeling options",
     ],
     isPopular: false,
-    ctaText: "Contact Sales"
+    ctaText: "Contact Sales",
+    ctaLink: "tel:+2348165907113"
   }
 ];
 
@@ -78,7 +81,7 @@ const Pricing = () => {
                 <div className="text-sm uppercase font-bold text-gray-500 mb-2">{plan.name}</div>
                 <CardTitle className="flex items-baseline">
                   <span className="text-4xl font-bold">{plan.price}</span>
-                  <span className="text-gray-500 ml-1">/mo</span>
+                  <span className="text-gray-500 ml-1"></span>
                 </CardTitle>
                 <p className="text-gray-600 mt-4">{plan.description}</p>
               </CardHeader>
@@ -91,18 +94,20 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
+                <a href={plan.ctaLink}>
                 <Button 
                   className={`w-full ${plan.isPopular ? 'bg-mailblast-primary hover:bg-mailblast-secondary' : ''}`} 
                   variant={plan.isPopular ? 'default' : 'outline'}
                 >
                   {plan.ctaText}
                 </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
         </div>
         <div className="text-center mt-8 text-gray-500 text-sm">
-          All plans include a 14-day free trial. No credit card required.
+          All plans include a 7-day free trial. No credit card required.
         </div>
       </div>
     </section>

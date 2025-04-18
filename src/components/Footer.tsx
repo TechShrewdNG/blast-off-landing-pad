@@ -53,8 +53,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>Email: info@mail-blast.com</li>
               <li>Phone: (+234) 816-590-7113</li>
-              <li>Flat 1, Block 2, GoodNews Estate, Lekki - Epe Expressway, Lagos.</li>
-              <li>Mon-Fri: 9AM-5PM EST</li>
+              <li>Road 10, GoodNews Estate, Lekki - Epe Expressway, Lagos.</li>
+              <li>Mon-Fri: 9AM-5PM WAT</li>
             </ul>
           </div>
         </div>

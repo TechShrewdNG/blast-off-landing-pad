@@ -22,15 +22,15 @@ const Hero = () => {
             Engage your audience, boost sales, and nurture customer relationships with expertly crafted email campaigns – without lifting a finger!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+2348165907113">
+            <a href="https://hub.mail-blast.com/login">
               <Button size="lg" className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary">
-              📞 Get Free Consultation
+              Get Started
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               </a>
             </div>
             <div className="mt-8 flex items-center text-sm text-mailblast-secondary">
-              <span>Your First 100 Emails Are On Us!</span>
+              <span>7 Days Free Trial. No credit card required!</span>
             </div>
           </div>
           <div className="relative h-[400px] md:h-[500px] w-full animate-fade-in rounded-lg shadow-xl overflow-hidden">
@@ -49,11 +49,11 @@ const Hero = () => {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <h3 className="font-semibold text-mailblast-secondary">Weekly Newsletter</h3>
+                    <h3 className="font-semibold text-mailblast-secondary">Mail Blast</h3>
                   </div>
                 </div>
                 <div className="h-10 w-full bg-gray-100 rounded-lg flex items-center px-3 mb-4">
-                  <span className="text-gray-400">subject: Your April Marketing Tips</span>
+                  <span className="text-gray-400">Subject: Done-for-you Email Marketing</span>
                 </div>
                 <div className="space-y-2 mb-4">
                   <div className="h-3 w-full bg-gray-100 rounded"></div>
@@ -61,7 +61,7 @@ const Hero = () => {
                   <div className="h-3 w-2/3 bg-gray-100 rounded"></div>
                 </div>
                 <div className="h-24 w-full bg-gray-50 rounded-lg mb-4 flex items-center justify-center border border-gray-100">
-                  <span className="text-sm text-gray-400">Email content preview</span>
+                  <span className="text-sm text-gray-400">Email Content Preview</span>
                 </div>
                 <div className="h-10 w-full bg-mailblast-primary rounded-lg flex items-center justify-center">
                   <span className="text-white font-medium">Send Campaign</span>

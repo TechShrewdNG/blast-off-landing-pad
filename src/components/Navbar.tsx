@@ -38,10 +38,11 @@ const Navbar = () => {
           </a>
         </div>
         <div className="hidden md:flex items-center space-x-4">
-
+        <a href="https://hub.mail-blast.com/login">
           <Button className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary">
-          📞 Get Started
+          Login/Sign up
           </Button>
+          </a>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-mailblast-secondary hover:text-mailblast-accent">
@@ -91,9 +92,9 @@ const Navbar = () => {
             </a>
             <div className="mt-4 flex flex-col gap-2">
 
-              <a href="tel:+2348165907113">
+              <a href="https://hub.mail-blast.com/login">
               <Button className="bg-mailblast-primary hover:bg-mailblast-primary/90 text-mailblast-secondary justify-center">
-              📞 Get Started
+              Login/Sign Up
               </Button>
               </a>
             </div>
